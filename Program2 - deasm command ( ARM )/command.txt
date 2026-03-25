@@ -1,0 +1,29 @@
+set PATH=%PATH%;C:\Program Files (x86)\CodeSourcery\Sourcery G++ Lite\arm-none-eabi\bin
+
+編譯
+arm-none-eabi-gcc -T generic-hosted.ld sort.S -o sort
+
+執行
+arm-none-eabi-run sort 20 11 23 51 23 37 6
+
+
+
+編譯
+arm-none-eabi-gcc -T generic-hosted.ld HW2.S -o  HW2
+
+執行
+arm-none-eabi-run HW2
+
+
+編譯
+arm-none-eabi-gcc -T generic-hosted.ld HW3.S -o  HW3
+
+執行
+arm-none-eabi-run HW3
+
+
+編譯
+arm-none-eabi-gcc -T generic-hosted.ld HW4.S -o  HW4
+
+執行
+arm-none-eabi-run HW4

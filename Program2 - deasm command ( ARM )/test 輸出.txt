@@ -1,0 +1,14 @@
+PC	instruction
+0	ADD
+4	MOV
+8   ADD
+12	CMP
+16	B	8
+20	--
+24	--
+
+	
+	
+
+    
+    
